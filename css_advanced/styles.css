@@ -16,30 +16,34 @@
     src: url(/css_advanced/font/source-sans-pro/SourceSansPro-LightIt.otf);
 }
 
-/* html, body {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-} */
+    width: 100%;
+} 
 *{
    box-sizing: border-box;
-   margin: 3px;
    padding: 0;
+   margin: 0;
 }
 
 body{
-    background-image: url(./img/Object.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+  
+    min-height: 100vh;
+    min-width: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: "Source-Sans", sans-serif;
     
 }
-
+.hero-container{
+    background-image: url(./img/Object.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 li{
     list-style-type: none;
 }
@@ -70,7 +74,7 @@ nav{
     font-family: "Source-Sans", sans-serif;
 
 }
-
+ 
 .logo{
     cursor: pointer;
 }
@@ -90,7 +94,8 @@ nav{
     font-size: 120px;
     color: #ffffff;
     text-decoration: none;
-    margin-top: 100px;
+    margin:100px 20px;
+    line-height: 0.5;
 }
 
 #hero .sub-text span {
@@ -123,7 +128,8 @@ a:hover{
 h2{
     font-family: Source-Sans-Light;
     color: white;
-    margin: 40px 40px;
+    padding: 50px;
+    margin-top: 70px;
 
 }
 h2 span {
@@ -133,10 +139,12 @@ h2 span {
 
 .speakers-images {
     display: flex; 
-    justify-content: space-between; 
-    flex-wrap: wrap;  
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 130px;
     margin: 0 auto; 
-    text-align: center; 
+    text-align: center;
+    padding: 30px;
 }
 
 .speakers-images img {
@@ -156,4 +164,49 @@ h2 span {
     font-family: Source-Sans-Italic;
     color: white;
     font-size: 16px;
+}
+
+.speakers-images p span{
+    display: block;
+    margin-top: 5px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    background-color: #C271FF;
+    gap: 40px;
+    width: 100vw;
+    margin: 0;
+    padding: 100px;
+    align-items: center;
+
+}
+
+.quote img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.block {
+    font-family: Source-Sans-Light;
+    text-align: left;
+    color: white;
+}
+
+.block blockquote{
+    padding-bottom: 30px;
+}
+
+.tutorials{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.popular-tutorials h2{
+    color:#071629;
 }
