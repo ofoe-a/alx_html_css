@@ -209,4 +209,110 @@ h2 span {
 
 .popular-tutorials h2{
     color:#071629;
+    margin-top: 0px;
 }
+
+.popular-tutorials span{
+    font-family: Source-Sans;
+    color: #C271FF;
+}
+
+.video img{
+    width: 255px;
+    height: 154px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.card{
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: "Source-Sans", sans-serif;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+
+.card .video {
+    width: 100%;
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+.video-container{
+    width: 100%;
+    position: relative;
+}
+.play-btn{
+    position: absolute;
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card h3{
+    font-size: 16px;
+    color: #071629;
+    text-align: left;
+    margin: 10px 15px;
+
+}
+
+.card p{
+    font-family: Source-Sans-Light;
+    font-size: 14px;
+    text-align: left;
+    color: #07162980;
+    line-height: 1.5;
+    margin-left: 15px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+}
+
+.author img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.author h4{
+    font-family: Source-Sans-Light;
+    font-size: 14px;
+    color: #C271FF;
+}
+
+.rating-duration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 15px;
+}
+.rating .fa-star{
+    font-size: 15px;
+    color: #C271FF;
+}
+
+.rating .fa-star.grey{
+    font-size: 15px;
+    color: #D8D8D8;
+}
+
+.card .duration{
+    font-family: Source-Sans-Light;
+    text-align: right;
+    color:#C271FF
+}
+
