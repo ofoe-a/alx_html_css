@@ -376,4 +376,24 @@ h2 span {
     color: #07162980;
     padding:  40px 0 50px 0;
 }
-
+footer{
+    background-color: #071629;
+    padding: 0 10rem;
+}
+footer p{
+    font-family: Source-Sans-Light;
+    font-size: 12px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+}
+.logos .fa-brands{
+    font-size: 20px;
+    padding: 0 10px;
+}
