@@ -1,0 +1,19 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url(/headphones/font/source-sans-pro/SourceSansPro-Black.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url(/headphones/font/source-sans-pro/SourceSansPro-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url(/headphones/font/source-sans-pro/SourceSansPro-Light.otf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
